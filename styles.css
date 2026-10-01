@@ -32,3 +32,10 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px;bor
 @media print{
   body{background:#fff}.no-print{display:none!important}main{max-width:none;padding:0}.view{display:none!important}.view.print-target{display:block!important}.card{box-shadow:none;border:1px solid #777;break-inside:avoid}.sheet-head{border-top-color:#315823}button{display:none!important}textarea,input,select{border:0;padding:0;background:transparent;appearance:none}.print-hide{display:none!important}
 }
+.user-box{display:flex;align-items:center;padding:7px 10px;border:1px solid rgba(255,255,255,.25);border-radius:8px;font-size:12px;line-height:1.25;min-width:150px}
+.user-box b{display:block;font-size:13px}.user-box .muted-light{opacity:.75}
+.auth-overlay{position:fixed;inset:0;background:linear-gradient(135deg,#24451b,#3d6a2c);z-index:200;display:flex;align-items:center;justify-content:center;padding:20px}
+.auth-overlay.hidden{display:none}.auth-card{width:min(440px,100%);background:#fff;border-radius:16px;padding:28px;box-shadow:0 20px 60px rgba(0,0,0,.28)}
+.auth-card h1{margin:0 0 5px;color:var(--green)}.auth-card .login-logo{font-size:12px;color:var(--muted);margin-bottom:22px}.auth-card .hint{background:#f3f7f1;border:1px solid var(--line);padding:10px;border-radius:8px;font-size:12px;color:var(--muted);margin:12px 0}
+.locked-note{padding:12px;border:1px dashed #c6cec3;border-radius:8px;background:#fafbf9;color:var(--muted);font-size:12px}
+@media(max-width:900px){.user-box{display:none}}
