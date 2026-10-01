@@ -13,8 +13,10 @@
       <div class="subbrand">Function & Events Operations Portal</div>
     </div>
     <div class="top-actions">
+      <div id="currentUserBox" class="user-box"></div>
       <button id="btnNew" class="primary">+ New Function Sheet</button>
       <button id="btnPrint">Print</button>
+      <button id="btnLogout">Logout</button>
     </div>
   </header>
 
@@ -36,6 +38,9 @@
     <section id="view-settings" class="view"></section>
   </main>
 
+  <div id="authOverlay" class="auth-overlay">
+    <div id="authCard" class="auth-card"></div>
+  </div>
   <div id="toast" class="toast"></div>
   <script src="app.js"></script>
 </body>
