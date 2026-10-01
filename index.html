@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Function Sheet V1</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar no-print">
+    <div>
+      <div class="brand">Holiday Inn Jeddah Corniche</div>
+      <div class="subbrand">Function & Events Operations Portal</div>
+    </div>
+    <div class="top-actions">
+      <button id="btnNew" class="primary">+ New Function Sheet</button>
+      <button id="btnPrint">Print</button>
+    </div>
+  </header>
+
+  <nav class="tabs no-print" id="mainNav">
+    <button data-view="dashboard" class="active">Dashboard</button>
+    <button data-view="editor">Function Sheet</button>
+    <button data-view="history">History</button>
+    <button data-view="followup">Follow-up</button>
+    <button data-view="feedback">Feedback</button>
+    <button data-view="settings">Settings</button>
+  </nav>
+
+  <main>
+    <section id="view-dashboard" class="view active"></section>
+    <section id="view-editor" class="view"></section>
+    <section id="view-history" class="view"></section>
+    <section id="view-followup" class="view"></section>
+    <section id="view-feedback" class="view"></section>
+    <section id="view-settings" class="view"></section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
